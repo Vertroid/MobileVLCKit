@@ -6,7 +6,7 @@ let package = Package(
     name: "MobileVLCKit",
     platforms: [
         .iOS(.v12),
-        .visionOS
+        .visionOS(.v1)
     ],
     products: [
         .library(
