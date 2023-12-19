@@ -4,10 +4,6 @@ import PackageDescription
 
 let package = Package(
     name: "MobileVLCKit",
-    platforms: [
-        .iOS(.v12),
-        .visionOS(.v1)
-    ],
     products: [
         .library(
             name: "MobileVLCKit",
